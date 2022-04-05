@@ -1,0 +1,23 @@
+﻿  4x4Main.cpp
+C:\Users\right\Desktop\소스및프로젝트\04장-배열구조체와파일\04장-4x4PuzzleGame\4x4Main.cpp(4,1): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+C:\Users\right\Desktop\소스및프로젝트\04장-배열구조체와파일\04장-4x4PuzzleGame\4x4Main.cpp(5,27): error C2664: 'void loadRanking(char *)': 인수 1을(를) 'const char [12]'에서 'char *'(으)로 변환할 수 없습니다.
+C:\Users\right\Desktop\소스및프로젝트\04장-배열구조체와파일\04장-4x4PuzzleGame\4x4Main.cpp(5,14): message : 문자열 리터럴로부터의 변환은 const 한정자가 손실됩니다(/Zc:strictStrings 참조).
+C:\Users\right\Desktop\소스및프로젝트\04장-배열구조체와파일\04장-4x4PuzzleGame\Ranking.h(8,13): message : 'loadRanking' 선언을 참조하십시오.
+C:\Users\right\Desktop\소스및프로젝트\04장-배열구조체와파일\04장-4x4PuzzleGame\4x4Main.cpp(8,28): error C2664: 'void storeRanking(char *)': 인수 1을(를) 'const char [12]'에서 'char *'(으)로 변환할 수 없습니다.
+C:\Users\right\Desktop\소스및프로젝트\04장-배열구조체와파일\04장-4x4PuzzleGame\4x4Main.cpp(8,15): message : 문자열 리터럴로부터의 변환은 const 한정자가 손실됩니다(/Zc:strictStrings 참조).
+C:\Users\right\Desktop\소스및프로젝트\04장-배열구조체와파일\04장-4x4PuzzleGame\Ranking.h(9,13): message : 'storeRanking' 선언을 참조하십시오.
+  Ranking.cpp
+C:\Users\right\Desktop\소스및프로젝트\04장-배열구조체와파일\04장-4x4PuzzleGame\Ranking.cpp(12,31): error C2660: 'fopen_s': 함수는 2개의 인수를 사용하지 않습니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdio.h(102,34): message : 'fopen_s' 선언을 참조하십시오.
+C:\Users\right\Desktop\소스및프로젝트\04장-배열구조체와파일\04장-4x4PuzzleGame\Ranking.cpp(17,17): warning C4477: 'fscanf_s' : 서식 문자열 '%s'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 3의 형식이 'double *'입니다.
+C:\Users\right\Desktop\소스및프로젝트\04장-배열구조체와파일\04장-4x4PuzzleGame\Ranking.cpp(17,17): message : 이 인수는 버퍼 크기로 사용됩니다.
+C:\Users\right\Desktop\소스및프로젝트\04장-배열구조체와파일\04장-4x4PuzzleGame\Ranking.cpp(17,17): warning C4473: 'fscanf_s': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+C:\Users\right\Desktop\소스및프로젝트\04장-배열구조체와파일\04장-4x4PuzzleGame\Ranking.cpp(17,17): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 4개 필요하지만 3개가 제공되었습니다.
+C:\Users\right\Desktop\소스및프로젝트\04장-배열구조체와파일\04장-4x4PuzzleGame\Ranking.cpp(17,17): message : 누락된 variadic 인수 4이(가) 서식 문자열 '%lf'에 필요합니다.
+C:\Users\right\Desktop\소스및프로젝트\04장-배열구조체와파일\04장-4x4PuzzleGame\Ranking.cpp(23,31): error C2660: 'fopen_s': 함수는 2개의 인수를 사용하지 않습니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdio.h(102,34): message : 'fopen_s' 선언을 참조하십시오.
+C:\Users\right\Desktop\소스및프로젝트\04장-배열구조체와파일\04장-4x4PuzzleGame\Ranking.cpp(45,11): warning C4473: 'scanf_s': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+C:\Users\right\Desktop\소스및프로젝트\04장-배열구조체와파일\04장-4x4PuzzleGame\Ranking.cpp(45,11): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 2개 필요하지만 1개가 제공되었습니다.
+C:\Users\right\Desktop\소스및프로젝트\04장-배열구조체와파일\04장-4x4PuzzleGame\Ranking.cpp(45,11): message : 누락된 variadic 인수 2이(가) 서식 문자열 '%s'에 필요합니다.
+C:\Users\right\Desktop\소스및프로젝트\04장-배열구조체와파일\04장-4x4PuzzleGame\Ranking.cpp(45,11): message : 이 인수는 버퍼 크기로 사용됩니다.
+  코드를 생성하고 있습니다...
