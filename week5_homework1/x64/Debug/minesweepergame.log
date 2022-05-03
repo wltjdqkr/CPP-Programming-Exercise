@@ -1,0 +1,8 @@
+﻿  minesweeper.cpp
+C:\Users\right\source\repos\CPP-Programming-Exercise\week5_homework1\minesweepergame\minesweepergame\minesweeper.cpp(94,14): error C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+C:\Users\right\source\repos\CPP-Programming-Exercise\week5_homework1\minesweepergame\minesweepergame\minesweeper.cpp(97,15): error C4996: 'getche': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getche. See online help for details.
+C:\Users\right\source\repos\CPP-Programming-Exercise\week5_homework1\minesweepergame\minesweepergame\minesweeper.cpp(99,6): error C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  minesweepergame.cpp
+C:\Users\right\source\repos\CPP-Programming-Exercise\week5_homework1\minesweepergame\minesweepergame\minesweepergame.cpp(3,1): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+C:\Users\right\source\repos\CPP-Programming-Exercise\week5_homework1\minesweepergame\minesweepergame\minesweepergame.cpp(7,2): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  코드를 생성하고 있습니다...
